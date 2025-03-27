@@ -1,0 +1,124 @@
+.main-container {
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    position: absolute;
+    inset: 0;
+}
+
+.content-wrapper {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.chat-section {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    margin-right: 20px;
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ff0077;
+    box-shadow: 0 0 15px rgba(255, 0, 119, 0.8);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+h2 {
+    color: #ff0077;
+    background: #000000;
+    border: 1px solid #ff0077;
+    border-radius: 10px;
+    padding: 8px 20px;
+    box-shadow: 0 0 15px rgba(255, 0, 119, 0.6);
+    margin: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input {
+    background: #000000;
+    border: 1px solid #ff0077;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 40px;
+    padding: 0 15px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 119, 0.6);
+    transition: all 0.3s ease;
+    min-width: 200px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input::placeholder {
+    color: rgba(255, 0, 119, 0.6);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(255, 0, 119, 0.9);
+}
+
+button {
+    background: #000000;
+    border: 1px solid #ff0077;
+    color: #ff0077;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button:hover {
+    background: #0a0a0a;
+    box-shadow: 0 0 20px rgba(255, 0, 119, 0.9);
+}
+
+.leave-button {
+    border-color: #ff2222;
+    color: #ff2222;
+    background: #000000;
+    margin-right: 0;
+}
+
+.leave-button:hover {
+    background: #0a0a0a;
+    box-shadow: 0 0 20px rgba(255, 34, 34, 0.9);
+}
+
+textarea {
+    width: 100%;
+    background: #000000;
+    border: 1px solid #ff0077;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 15px;
+    resize: vertical;
+    box-shadow: 0 0 15px rgba(255, 0, 119, 0.6);
+    transition: all 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 25px rgba(255, 0, 119, 1);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
